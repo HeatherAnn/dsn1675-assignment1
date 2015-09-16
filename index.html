@@ -1,16 +1,16 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
   <title>Museum of Antiquities</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale">
   <link href="css/main.css" rel="stylesheet">
 <body>
 
 <header>
  <img class="logo" src="images/logo.svg" alt="an icon of the logo.">
 <div class="buy">
- <a href="buy">Buy</a>
+ <a href="buy" id="tickets">Buy</a>
 </div>
  <h1> Museum of Antiquities </h1>
 
@@ -23,12 +23,12 @@
   <li><a href="#nowplaying">Now playing</a></li>
   <li><a href="#thisweek">This Week</a></li>
 </ol>
-<nav>
+</nav>
 
 <div class="banner">
   <img src="images/maerten.jpg" alt="a banner photo of Maerten.">
     <div class="bannercontent">
-      <h2><em>The Seven Wonders of the Ancient World</em></h2>
+      <h2 id="seven"><em>The Seven Wonders of the Ancient World</em></h2>
        <p>Remarkable constructions of classical antiquity almost completely lost in time.</p>
 </div>
 </div>
@@ -38,9 +38,9 @@
 <h3>Great Pyramid of Giza</h3>
 <img src="images/giza.jpg" alt="a photo of the great pyramid of giza.">
 <dl>
-  <dd>Date of construction:</dd><dt>2584–2561 BC</dt>
-  <dd>Builders:</dd><dt>Egyptians</dt>
-  <dd>Location:</dd><dt>Giza Necropolis, Egypt</dt>
+  <dt>Date of construction:</dt><dd>2584–2561 BC</dd>
+  <dt>Builders:</dt><dd>Egyptians</dd>
+  <dt>Location:</dt><dd>Giza Necropolis, Egypt</dd>
 </dl>
 <a href="#giza">Learn more about Giza</a>
 
@@ -48,9 +48,9 @@
 <img src="images/babylon.jpg" alt="the hanging gardens of babylon.">
 
 <dl>
-  <dd>Date of construction:</dd><dt>Circa 600 BC</dt>
-  <dd>Builders:</dd><dt>Babylonians</dt>
-  <dd>Location:</dd><dt>Nineveh, Iraq</dt>
+  <dt>Date of construction:</dt><dd>Circa 600 BC</dd>
+  <dt>Builders:</dt><dd>Babylonians</dd>
+  <dt>Location:</dt><dd>Nineveh, Iraq</dd>
 </dl>
 <a href="#hanginggardens">Learn more about the Hanging Gardens</a>
 
@@ -58,9 +58,9 @@
 <img src="images/artemis.jpg" alt="the temple of artemis.">
 
 <dl>
-  <dd>Date of construction:</dd><dt>Circa 550 BC</dt>
-  <dd>Builders:</dd><dt>Greeks</dt>
-  <dd>Location:</dd><dt>Selçuk, Turkey</h3></dt>
+  <dt>Date of construction:</dt><dd>Circa 550 BC</dd>
+  <dt>Builders:</dt><dd>Greeks</dd>
+  <dt>Location:</dt><dd>Selçuk, Turkey</dd>
 </dl>
 <a href="#temple">Learn more about the Temple</a>
 
@@ -68,18 +68,18 @@
 <img src="images/zeus.jpg" alt="the statue of zeus at olympia.">
 
 <dl>
-  <dd>Date of construction:</dd><dt>435 BC</dt>
-  <dd>Builders:</dd><dt>Greeks</dt>
-  <dd>Location:</dd><dt>Olympia, Greece</dt>
+  <dt>Date of construction:</dt><dd>435 BC</dd>
+  <dt>Builders:</dt><dd>Greeks</dd>
+  <dt>Location:</dt><dd>Olympia, Greece</dd>
 </dl>
 <a href="#statue">Learn more about the Statue</a>
 
 <h3>Mausoleum at Halicarnassus</h3>
 <img src="images/halicarnassus.jpg" alt="mausoleum at halicarnassus.">
 <dl>
-  <dd>Date of construction:</dd><dt>351 BC</dt>
-  <dd>Builders:</dd><dt>Persians</dt>
-  <dd>Location:</dd><dt>Bodrum, Turkey</dt>
+  <dt>Date of construction:</dt><dd>351 BC</dd>
+  <dt>Builders:</dt><dd>Persians</dd>
+  <dt>Location:</dt><dd>Bodrum, Turkey</dd>
 </dl>
 <a href="#mausoleum">Learn more about the Mausoleum</a>
 
@@ -87,9 +87,9 @@
 <img src="images/rhodes.jpg" alt="the colossus of rhodes.">
 
 <dl>
-  <dd>Date of construction:</dd><dt>292–280 BC</dt>
-  <dd>Builders:</dd><dt>Greeks</dt>
-  <dd>Location:</dd><dt>Rhodes, Greece</dt>
+  <dt>Date of construction:</dt><dd>292–280 BC</dd>
+  <dt>Builders:</dt><dd>Greeks</dd>
+  <dt>Location:</dt><dd>Rhodes, Greece</dd>
 </dl>
 <a href="#colossus">Learn more about Colossus</a>
 
@@ -97,19 +97,19 @@
 <img src="images/alexandria.jpg" alt="the lighthouse of alexandria.">
 
 <dl>
-Date of construction</dd><dt>Circa 280 BC</dt>
-Builders:</dd><dt>Ptolemaic Egyptians</dt>
-Location:</dd><dt>Alexandria, Egypt</dt>
+<dt>Date of construction</dt><dd>Circa 280 BC</dd>
+<dt>Builders:</dt><dd>Ptolemaic Egyptians</dd>
+<dt>Location:</dt><dd>Alexandria, Egypt</dd>
 </dl>
 <a href="#lighthouse">Learn more about the Lighthouse</a>
 
 
-<h2>Buy tickets</h2>
+<h2 id="buy">Buy tickets</h2>
 
 <p>Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
 
-<href>$15 for adults</href>
-<href>$5 for kids</href>
+<a href="#tickets">$15 for adults</a>
+<a href="#tickets">$5 for kids</a>
 
 
 <div class="member">
@@ -118,13 +118,13 @@ Location:</dd><dt>Alexandria, Egypt</dt>
 <strong>Is one visit not enough?</strong>
 <p>Join our yearly program for unlimited access.</p>
 
-<a href="#adults">$99 for adults</a>
-<a href="#kids">$39 for kids</a>
+<a href="#tickets">$99 for adults</a>
+<a href="#tickets">$39 for kids</a>
 </div>
 
 
 <div class="banhead">
-<h2>Now playing on the large screen</h2>
+<h2 id="nowplaying">Now playing on the large screen</h2>
 </div>
 
 <div class="banner">
@@ -138,7 +138,7 @@ Location:</dd><dt>Alexandria, Egypt</dt>
 </div>
 </div>
 
-<h2>This week at the museum</h2>
+<h2 id="thisweek">This week at the museum</h2>
 
 <h3>Saturday & Sunday</h3>
 
