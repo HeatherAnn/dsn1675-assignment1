@@ -68,9 +68,6 @@ ol{
   padding: 5px;
 }
 
-dl{
-  margin: 0.5em;
-}
 li{
   margin: 0.5em;
 }
@@ -118,12 +115,52 @@ h2{
 h3{
   margin: 0.5em;
 }
+.date dl{
+  position: relative;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 30%;
+  left:5%;
+  padding: 1em 0 1em 0;
+}
+.date dl dd{
+  margin: 0;
+}
+
+.builders dl{
+  position: relative;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 1em 0 1em 0;
+}
+.builders dl dd{
+  margin: 0;
+}
+.location dl{
+  position: relative;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 1em 0 1em 0;
+}
+.location dl dd{
+  margin 0;
+}
+.grey{
+  background-color: #e3e3e3;
+  margin: 0;
+}
 a{
 color: #B808ff;
 text-decoration: none;
+margin: 0.5em;
 }
 .member{
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
 }
 p{
   margin: 0.5em;
@@ -131,9 +168,7 @@ p{
 strong{
   margin: 0.5em;
 }
-a{
-  margin: 0.5em;
-}
+
 footer{
   padding-top: 2em;
   padding-bottom: 1em;
