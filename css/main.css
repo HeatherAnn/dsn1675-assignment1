@@ -211,6 +211,7 @@ dt dd{
 
   p{
     text-align: center;
+    margin: 1em;
   }
   h3{
     text-align: center;
@@ -225,21 +226,25 @@ dt dd{
     text-align: center;
   }
 
-
+  header{
+    float: left;
+    width: 30%
+  }
   body{
     float: right;
     width: 70%;
   }
-  .nav a {
-      display: block;
-      padding: 0.5em 1em;
-      text-decoration: none;
-      color: #fff;
-    }
-    .nav{
-      text-align: left;
-    }
-  p{
-  margin: 1em;
+  .logo{
+    margin: 0 auto;
+    display: block;
   }
+  .title{
+    display: block;
+  }
+
+  .nav{
+  text-align: left;
+ }
+.nav li{
+  display: block;
 }
