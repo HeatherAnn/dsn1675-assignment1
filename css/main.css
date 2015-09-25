@@ -30,8 +30,7 @@ img{
 }
 .buy a{
   float:right;
-  margin: 0;
-  position: absolute;
+  margin: 0.2em;
   background-color: #000;
   padding: 0.5em 1em 0.5em 1em;
   color: #B808ff;
@@ -207,7 +206,7 @@ dt dd{
 }
   }
 
-@media only screen and (min-width: 57em)  {
+@media only screen and (min-width: 50em)  {
 
   p{
     text-align: center;
@@ -228,23 +227,29 @@ dt dd{
 
   header{
     float: left;
-    width: 30%
-  }
-  body{
-    float: right;
-    width: 70%;
-  }
-  .logo{
-    margin: 0 auto;
-    display: block;
-  }
-  .title{
-    display: block;
+    width: 40%
   }
 
-  .nav{
+.nav{
   text-align: left;
  }
+.nav a{
+  padding: 13px;
+  display: block;
+}
 .nav li{
   display: block;
+}
+main{
+  float:right;
+  width: 60%;
+}
+.logo{
+  width: 70px;
+}
+.bannercontent p{
+  padding:10px;
+}
+img{
+  width: 34%;
 }
