@@ -20,9 +20,6 @@ body{
   margin: 0;
 }
 
-img{
-  width: 100%;
-}
 .logo{
   width: 40px;
   float: left;
@@ -125,15 +122,19 @@ h3{
 
 dl{
   margin-left: 10%;
+  width: 100%;
 }
 dt{
   margin: 0;
   font-weight: bold;
+  width: 100%;
 }
 dd{
   margin: 0;
   color: #939393;
+  width: 100%;
 }
+
 .grey{
   background-color: #e3e3e3;
   margin: 0;
@@ -252,4 +253,76 @@ main{
 }
 img{
   width: 34%;
+}
+
+html{
+  font-size: 110%;
+  line-height: 1.4;
+}
+}
+@media only screen and (min-width: 60em){
+  html{
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header{
+    float: left;
+    width: 30%
+  }
+
+  main{
+    float:right;
+    width: 70%;
+  }
+  .logo{
+    width: 80px;
+    margin: 0.5em;
+  }
+
+}
+
+.grey{
+  clear: both;
+  padding-top: 30px;
+}
+
+.images{
+  width: 50%;
+  float: left;
+}
+
+img{
+  width: 30%;
+}
+.weekdays{
+  max-width: 20em;
+  text-align: left;
+}
+footer{
+  clear: both;
+  width: auto;
+}
+
+@media print{
+
+  nav{
+    display: none;
+  }
+
+
+img{
+  width: 50%;
+}
+.buy{
+  display: none;
+}
+.logo{
+  display: none;
+}
+
+main a::after {
+  content:" (" attr(href) ")";
+}
+
 }
