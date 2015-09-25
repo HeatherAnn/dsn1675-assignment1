@@ -309,7 +309,9 @@ footer{
   nav{
     display: none;
   }
-
+h2 h3{
+  text-align: left;
+}
 
 img{
   width: 50%;
@@ -322,7 +324,7 @@ img{
 }
 
 main a::after {
-  content:" (" attr(href) ")";
+  content: " (" attr(href) ") ";
 }
 
 }
